@@ -6,6 +6,7 @@
         //在 AMD 规范下(RequireJS) 或者 CMD 规范下(SeaJS)
         define(definition);
     } else {
+        
         //在浏览器环境下
         context[name] = definition();
     }
